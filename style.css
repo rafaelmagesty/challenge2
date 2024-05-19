@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(/images/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    background-position: 0px; 
+    background-size: 30% 1440px;
+}
+
+.image-card-front .card-number-box{
+    color: white;
+    font-size: large;
+    font-size: 30px;
+    margin-top: -100px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+
+}
+
+.expiration .exp-month{
+    margin-left: -350px;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.cvc-box{
+    margin-left: -250px;
+    color: white;
+    margin-top: -65px;
+    font-size: 12px;
+    width: 35px;
+    letter-spacing: 2px;
+}
+.expiration .exp-year{
+    margin-left: -0px;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.card-holder-name{
+    margin-left: -690px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.main-content{
+    margin-left: 50%;
+    margin-right: 400px;
+    margin-top: -400px;
+    text-transform: uppercase;
+    width: 500px;
+}
+
+.card-number-input, .month-input, .year-input, .cvc-input {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.month-input, .year-input {
+    width: 70px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.cvc-input {
+    width: 98px;
+    padding: 5px;
+
+}
+
+.image-card-front{
+    margin-top: 70px;
+    margin-left: 250px;
+}
+
+
+.image-card-back{
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: hsl(278, 68%, 11%);
+    color: white; 
+    border: none;
+    border-radius: 5px; 
+    font-size: 15px; 
+    cursor: pointer;
+}
+
+.main-content form .inputBox input,
+.main-content form .inputBox select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.main-content form .flexbox{
+    display: flex;
+    gap: 15px;
+}
+.main-content form .flexbox .inputBox{
+    flex: 1 1 150px;
+    
+}
